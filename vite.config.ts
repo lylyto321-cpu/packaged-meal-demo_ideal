@@ -24,6 +24,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/packaged-meal-demo_ideal/",
   resolve: {
     alias: {
       // Alias @ to the src directory
